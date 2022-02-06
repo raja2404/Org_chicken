@@ -55,7 +55,7 @@ body {
   color: white;
 }
 .about {
-  background: #44961C;
+  background: #44961c;
   color: white;
 }
 .breed {
@@ -63,7 +63,7 @@ body {
   color: white;
 }
 .gallery {
-  background: #44961C;
+  background: #44961c;
   color: white;
 }
 .contact {
@@ -220,7 +220,7 @@ body {
   margin: 0 0 0 30px;
 }
 @media only screen and (max-width: 600px) {
-  #navbar{
+  #navbar {
     display: none;
   }
 }
@@ -310,6 +310,42 @@ img {
   }
 }
 .text3 {
+  color: rgb(255, 0, 0);
+  font-size: 30px;
+  padding: 8px 12px;
+  font-weight: bolder;
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  width: 100%;
+  text-align: center;
+  width: 50ch;
+  animation: typing2 2s steps(50), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  display: inline;
+  background-color: black;
+}
+.text4 {
+  color: red;
+  font-size: 50px;
+  padding: 8px 12px;
+  position: absolute;
+  left: 10%;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  width: 22ch;
+  animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 4em;
+}
+.text5 {
   color: rgb(255, 0, 0);
   font-size: 30px;
   padding: 8px 12px;
@@ -413,11 +449,11 @@ img {
     justify-content: center;
   }
 }
-#space{
+#space {
   height: 20px;
 }
 .cards {
-  margin: auto; 
+  margin: auto;
   height: 50vh;
   width: 98vw;
   color: black;
@@ -434,7 +470,7 @@ img {
   transition-timing-function: ease;
 }
 .card:hover {
-  background-color: #44961C;
+  background-color: #44961c;
 }
 
 .column {
@@ -469,7 +505,7 @@ img {
 }
 marquee {
   font-size: 25px;
-  color: #44961C;
+  color: #44961c;
   font-weight: bolder;
 }
 .logoimg {
@@ -562,4 +598,13 @@ h1 {
   font-size: 2.8rem;
   margin: 40px 0 20px 0;
   text-align: center;
+}
+
+.overlay_gplay {
+  position: absolute;
+  bottom: -550px;
+  left: 10%;
+  width: 0vw;
+  height: 100vh;
+  /*background-color: red;*/
 }
