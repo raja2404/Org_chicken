@@ -241,7 +241,8 @@ body {
 }
 
 .mySlides {
-  display: none;
+  display: block;
+  position: relative;
 }
 img {
   vertical-align: middle;
@@ -604,7 +605,7 @@ h1 {
 
 .overlay_gplay {
   position: absolute;
-  bottom: 0;
+  bottom: 15%;
   left: 10%;
   /*background-color: red;*/
 }
